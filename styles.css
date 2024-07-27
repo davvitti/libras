@@ -56,15 +56,24 @@ body {
 
 
 img {
-    width: 100%;
+    width:90%;
+}
+
+video{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
 }
 
 .header {
-    position: fixed; /* Fix the header to the top */
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     z-index: 10;
     background-color: rgb(0, 80, 47);
     height: 1.5cm;
@@ -76,12 +85,64 @@ img {
 .header .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
+    padding: 0 20px;
 }
 
 .logo {
     color: rgb(228, 237, 245);
     font-size: 35px;
     text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(228, 237, 245);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.card-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    font-size: 35px;
+    list-style: none;
+    display: inline-block;
+}
+
+span{
+    color: rgb(228, 237, 245);
 }
