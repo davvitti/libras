@@ -110,6 +110,7 @@ nav ul li a {
     color: rgb(228, 237, 245);
     text-decoration: none;
     font-size: 20px;
+    
 }
 
 nav ul li a:hover {
@@ -145,4 +146,7 @@ ul li {
 
 span{
     color: rgb(228, 237, 245);
+    margin: 0.5cm;
+    font-size: 20px;
+   border-bottom: #fff;
 }
